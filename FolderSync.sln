@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderSync", "FolderSync\FolderSync.csproj", "{1FC4EFFD-5CA8-417A-957B-6AF0276D1D04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderSync", "FolderSync\FolderSync.fsproj", "{1FC4EFFD-5CA8-417A-957B-6AF0276D1D04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
