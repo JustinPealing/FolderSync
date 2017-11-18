@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FolderSync": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\justi\\Desktop\\sync\\source C:\\Users\\justi\\Desktop\\sync\\destination C:\\Users\\justi\\Desktop\\sync\\registry"
+    }
+  }
+}
