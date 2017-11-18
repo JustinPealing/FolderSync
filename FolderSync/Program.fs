@@ -1,10 +1,12 @@
 ﻿open System
+open System.Reflection
 open FolderSync
 
 let ERROR_BAD_ARGUMENTS = 160
 
 let printUsage() = 
-    printfn "FolderSync <source> <desintation> <record>"
+    printfn "FolderSync %s" (Assembly.GetExecutingAssembly().GetName().Version.ToString())
+    printfn "usage: FolderSync.exe <source> <desintation> <record>"
 
 [<EntryPoint>]
 let main args =
