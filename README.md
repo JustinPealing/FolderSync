@@ -13,4 +13,4 @@ Where `<source>` is the path to the source directory, `<destination>` is the pat
 ## How to publish
 
     cd FolderSync
-    dotnet publish -c Release -f net452 -r win-x64 --version-suffix beta
+    dotnet publish -c Release -r win-x64
