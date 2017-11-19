@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="AssesmblyInfo.fs" />
     <Compile Include="FolderSync.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>

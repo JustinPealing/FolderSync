@@ -1,7 +1,14 @@
-﻿open FolderSync
+﻿open System
+open System.Reflection
+open FolderSync
+
+let version = 
+    Attribute.GetCustomAttribute(
+        Assembly.GetEntryAssembly(), 
+        typedefof<AssemblyInformationalVersionAttribute>) :?> AssemblyInformationalVersionAttribute
 
 let printUsage() = 
-    printfn "FolderSync 0.1.0-beta"
+    printfn "FolderSync %s" version.InformationalVersion
     printfn "usage: FolderSync.exe <source> <desintation> <record>"
 
 [<EntryPoint>]
