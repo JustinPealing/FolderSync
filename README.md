@@ -10,7 +10,9 @@ Where `<source>` is the path to the source directory, `<destination>` is the pat
 
     FolderSync.exe "c:\source" "c:\destination" "c:\registry"
 
-## How to publish
+## How to build
+
+The following commands will build the project for the `win-x64` target.
 
     cd FolderSync
     dotnet publish -c Release -r win-x64
